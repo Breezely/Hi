@@ -100,7 +100,7 @@ console.log(error)
 try {
 guild.members.get(banner).ban();
   rebellog.send(`<@!${banner.id}>
-حاول جحفلة السيرفر `);
+حاول جحفلة السيرفر @everyone`);
 guild.owner.send(`<@!${banner.id}>
 حاول جحفلة السيرفر ${guild.name}`)
     setTimeout(() => {
@@ -158,7 +158,7 @@ let channelr = {};
  if(channelr[channelremover.id].deleted >= Onumber ) {
   Oguild.guild.member(channelremover).kick();
 rebellog.send(`<@!${channelremover.id}>
-حاول جحفلة السيرفر `);
+حاول جحفلة السيرفر @everyone`);
 channel.guild.owner.send(`<@!${channelremover.id}>
 حاول جحفلة السيرفر ${channel.guild.name}`)
 }
