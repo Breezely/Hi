@@ -6,7 +6,7 @@ const fs = require('fs');
 const moment = require("moment")
 const data = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
 
-const devs = ["519553266678497290 , 459273990989545472"]
+const devs = ["459273990989545472"]
 
 const adminprefix = "$";
 client.on('message', message => {
