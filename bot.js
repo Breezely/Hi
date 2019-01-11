@@ -237,4 +237,16 @@ try {
    console.log(e)
 }
 });
+
+   var role = member.guild.roles.find ("name", "Relax");
+   member.addRole (role);
+  
+})
+
+client.on ("guildMemberAdd", member => {
+  
+   var role = member.guild.roles.find ("name", "Relax");
+   member.addRole (role);
+
+
             client.login(process.env.BOT_TOKEN);
