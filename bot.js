@@ -238,10 +238,6 @@ try {
 }
 });
 
-   var role = member.guild.roles.find ("name", "Relax");
-   member.addRole (role);
-  
-})
 
 client.on ("guildMemberAdd", member => {
   
